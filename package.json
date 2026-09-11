@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:priority": "node scripts/priority-runner.js",
+    "test:regression": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suneinajemima/ai-playwright-framework.git"
